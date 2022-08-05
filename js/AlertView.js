@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
-import { ViewPropTypes, NativeModules } from "react-native";
+import { NativeModules } from "react-native";
 import PropTypes from "prop-types";
+import { ViewPropTypes } from "deprecated-react-native-prop-types"
 
 const { RNBottomActionSheet } = NativeModules;
 
